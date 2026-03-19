@@ -29,11 +29,18 @@
 3. Продемонстрировать количество подов до и после масштабирования.
 4. Создать Service, который обеспечит доступ до реплик приложений из п.1.
 5. Создать отдельный Pod с приложением multitool и убедиться с помощью `curl`, что из пода есть доступ до приложений из п.1.
+
+**Файлы манифестов Задания 1:**
+- [deployment-app.yaml](https://github.com/Dun9Dev/kuber-hw/blob/hw2/deployment-app.yaml)
+- [service-app.yaml](https://github.com/Dun9Dev/kuber-hw/blob/hw2/service-app.yaml)
+- [test-pod.yaml](https://github.com/Dun9Dev/kuber-hw/blob/hw2/test-pod.yaml)
+
 ![img](https://github.com/Dun9Dev/kuber-hw/blob/hw2/img/Screenshot_20260318_002507.png)
 ![img](https://github.com/Dun9Dev/kuber-hw/blob/hw2/img/Screenshot_20260318_002705.png)
 ![img](https://github.com/Dun9Dev/kuber-hw/blob/hw2/img/Screenshot_20260318_004826.png)
 ![img](https://github.com/Dun9Dev/kuber-hw/blob/hw2/img/Screenshot_20260318_004900.png)
 ![img](https://github.com/Dun9Dev/kuber-hw/blob/hw2/img/Screenshot_20260319_125839.png)
+
 ------
 
 ### Задание 2. Создать Deployment и обеспечить старт основного контейнера при выполнении условий
@@ -43,9 +50,12 @@
 3. Создать и запустить Service. Убедиться, что Init запустился.
 4. Продемонстрировать состояние пода до и после запуска сервиса.
 
+**Файлы манифестов Задания 2:**
+- [deployment-init.yaml](https://github.com/Dun9Dev/kuber-hw/blob/hw2/deployment-init.yaml)
+- [service-nginx.yaml](https://github.com/Dun9Dev/kuber-hw/blob/hw2/service-nginx.yaml)
+
 ![img](https://github.com/Dun9Dev/kuber-hw/blob/hw2/img/Screenshot_20260319_132147.png)
 ![img](https://github.com/Dun9Dev/kuber-hw/blob/hw2/img/Screenshot_20260319_132817.png)
-
 ------
 
 ### Правила приема работы
