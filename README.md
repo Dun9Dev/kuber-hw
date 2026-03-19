@@ -58,13 +58,12 @@ kubectl rollout restart deployment -n web web-consumer
 ```bash
 kubectl logs -n web deployment/web-consumer
 ```
-![img]()
-![img]()
-![img]()
-![img]()
-![img]()
-![img]()
-![img]()
+![img](https://github.com/Dun9Dev/kuber-hw/blob/hw11/img/Screenshot_20260320_002550.png)
+![img](https://github.com/Dun9Dev/kuber-hw/blob/hw11/img/Screenshot_20260320_002601.png)
+![img](https://github.com/Dun9Dev/kuber-hw/blob/hw11/img/Screenshot_20260320_002611.png)
+![img](https://github.com/Dun9Dev/kuber-hw/blob/hw11/img/Screenshot_20260320_002618.png)
+![img](https://github.com/Dun9Dev/kuber-hw/blob/hw11/img/Screenshot_20260320_002628.png)
+![img](https://github.com/Dun9Dev/kuber-hw/blob/hw11/img/Screenshot_20260320_002637.png)
 
 ### **Результат**
 
